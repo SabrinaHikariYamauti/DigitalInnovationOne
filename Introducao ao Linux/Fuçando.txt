@@ -32,3 +32,14 @@ cowsay -f dragon
 
 xcowsay
 cmatrix
+
+init 0 - desliga máquina
+telinit 0 
+halt - autenticação para delsigar maquina
+
+seq 1 10 - conta sequencia
+
+
+https://bellard.org/jslinux/ - roda o sistem operacional em browser
+
+

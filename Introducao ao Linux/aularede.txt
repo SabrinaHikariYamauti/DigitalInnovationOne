@@ -1,0 +1,110 @@
+
+---Informações sobre IP---
+
+192.168.15.11 2804:431:cfcf:b552:b085:ec45:3a4a:ed1c 2804:431:cfcf:b552:e69e:afd5:f46c:1535 
+
+---Informações sobre IP Loopback---
+
+127.0.1.1
+
+---Informações DNS site www.pudim..com.br---
+
+
+; <<>> DiG 9.11.3-1ubuntu1.13-Ubuntu <<>> www.pudim.com.br -i
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 25623
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;www.pudim.com.br.		IN	A
+
+;; ANSWER SECTION:
+www.pudim.com.br.	3600	IN	CNAME	pudim.com.br.
+pudim.com.br.		3599	IN	A	54.207.20.104
+
+;; Query time: 227 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Feb 19 09:49:14 -03 2021
+;; MSG SIZE  rcvd: 75
+
+
+---Informações sobre o usuário da rede---
+
+ 09:50:12 up  1:10,  1 user,  load average: 4.27, 4.32, 4.70
+USUARIO  TTY      DE               LOGIN@   OCIOSO JCPU   PCPU O QUE
+sabrina  :0       :0               08:41   ?xdm?   1:30m  0.00s /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu gnome-session --session=ubuntu
+
+---Informações PING site www.pudim.com.br---
+
+PING pudim.com.br (54.207.20.104) 56(84) bytes of data.
+
+--- pudim.com.br ping statistics ---
+8 packets transmitted, 0 received, 100% packet loss, time 7161ms
+
+
+---Informações de rota site www.pudim.com.br---
+
+traceroute to www.pudim.com.br (54.207.20.104), 30 hops max, 60 byte packets
+ 1  _gateway (192.168.15.1)  3.308 ms  3.265 ms  3.244 ms
+ 2  * * *
+ 3  187-100-166-152.dsl.telesp.net.br (187.100.166.152)  7.524 ms 152-255-175-152.user.vivozap.com.br (152.255.175.152)  7.506 ms 187-100-38-177.dsl.telesp.net.br (187.100.38.177)  10.269 ms
+ 4  152-255-163-231.user.vivozap.com.br (152.255.163.231)  12.486 ms  12.469 ms  12.451 ms
+ 5  * * *
+ 6  * * *
+ 7  * 52.93.146.143 (52.93.146.143)  11.634 ms *
+ 8  150.222.70.89 (150.222.70.89)  19.369 ms * *
+ 9  150.222.70.98 (150.222.70.98)  40.478 ms 150.222.70.96 (150.222.70.96)  10.484 ms 150.222.70.64 (150.222.70.64)  12.609 ms
+10  52.93.44.41 (52.93.44.41)  12.581 ms 52.93.44.89 (52.93.44.89)  18.984 ms 52.93.44.105 (52.93.44.105)  18.932 ms
+11  177.72.240.193 (177.72.240.193)  15.504 ms 54.240.244.64 (54.240.244.64)  15.494 ms 54.240.244.74 (54.240.244.74)  15.485 ms
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+
+---Informações de Interface de Rede e Endereços IP---
+
+enp1s0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether 64:1c:67:91:e8:fa  txqueuelen 1000  (イーサネット)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (ローカルループバック)
+        RX packets 1054  bytes 111360 (111.3 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1054  bytes 111360 (111.3 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlp2s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.15.11  netmask 255.255.255.0  broadcast 192.168.15.255
+        inet6 2804:431:cfcf:b552:e69e:afd5:f46c:1535  prefixlen 64  scopeid 0x0<global>
+        inet6 2804:431:cfcf:b552:b085:ec45:3a4a:ed1c  prefixlen 64  scopeid 0x0<global>
+        inet6 fe80::1d4e:190c:7f08:8d61  prefixlen 64  scopeid 0x20<link>
+        ether 64:32:a8:07:e7:ed  txqueuelen 1000  (イーサネット)
+        RX packets 104449  bytes 135164039 (135.1 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 50060  bytes 7652646 (7.6 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+

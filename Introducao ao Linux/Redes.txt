@@ -21,4 +21,17 @@ hostname -I - IP host
 hostname -i - IP local
 
 who - como estamos logados
+whoami 
 
+ping - protocolo ICMP, envia mensagem para verificar se o determinado host está ativo.
+
+dig <https do site> - DNS
+mostra o ip do site e transforma o ip em https do site.
+dig <https do site> +short
+
+traceroute <https do site> - mostra quantidade de dispositivos até chegar ao google.com
+exemplo, máquina virtual>> real>> roteador>> distribuidor de inter>> rede man>> rede lan>>satelite >> outro país servidor de google
+
+whois <https do site> -  não apenas informações de rede, mas o domínio, o dono do domínio, id, resposável, país, servidor DNS, info de contato
+
+finger - informação de usuário

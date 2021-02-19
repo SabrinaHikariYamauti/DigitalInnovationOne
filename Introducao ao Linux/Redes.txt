@@ -1,0 +1,24 @@
+Rede man >> Redes locais (rede Lan) >> as redes locais se comunicam através dos protocolos
+
+IP: Protocolo de Internet - identifica o endereço do meu computador
+ICMP: Internet Protocol Message - controle de comunicação entre nós (ifocnfig, ping , etc)
+DNS: Domain Name Server - 
+
+ifconfig
+
+inet - IPv4 - IP
+netmask - separa a rede ṕública da privada
+Broadcast - endereço píblico da rede local. Se enviar mensagem para este endereço, todos os
+computadores que pertencem a mesma rede receberão esta mesma mensagemi
+IPv6 - hexadecimal. Como a quantidade de rede de computadores estavam se esgotando, foi aumentado através deste novo IP
+ether - endereço de placa de rede e né único. Gravado na placa "CPF da placa"
+
+LOOPBACK - endereço local
+inet - endereço local
+
+hostname - nome do computador
+hostname -I - IP host
+hostname -i - IP local
+
+who - como estamos logados
+

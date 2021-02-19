@@ -1,0 +1,34 @@
+history - historico de comando
+histpry -c - apagar históricos
+
+alias hh='history' 
+hh - mostra o históricos e pode fazer para qualquer comando
+
+wc -l file.txt - conta quantidade de linhas incluindo brancos
+nl - file.txt - exibe o arquivo e na frente exibe quantidadede linhas
+wc -w file.txt - conta quantidade de palavras
+wc -m file.txt - mostra numero de caracteres
+ls -F - insere barra na frente de cada diretório
+ls -a - arquivos ocultos
+
+cmp file1.txt file2.txt - realiza a comparação entre os textos
+diff file1.txt file2.txt - mostra preenchimento de arquivos
+sort -n file.txt - organiza em ordem numérica
+
+last reboot - ultimos reboots
+route -n -  todas as tabelas de roteamento
+time -  tempo de processo
+time traceroute <https>
+uptime - tempo que o sistema está rodando
+
+cowsay "frase"- vaca fala
+cowsay -d
+cowsay -g
+cowsay -f
+cowsay -f tux
+cowsay -f vader
+cowsay -f vader-koala
+cowsay -f dragon
+
+xcowsay
+cmatrix

@@ -1,0 +1,23 @@
+sudo adduser dio - criar usuário
+su dio
+passwd <username> - alterar senha
+
+lastlog - ultimos logins de todos os usuários
+last - apenas do usuario atual
+logname
+
+id - grupos que este usuário pertence
+cat /etc/passwd | - exive todos os usuários
+sudo userdel -r <username> - remove o usuário e a pasta pessoal 
+
+cat /etc/group - mostra todos os grupos existentes nos sistema
+groups - grupos que o usuário pertence
+add group - criar um grupo
+
+sudo adduser <username> <groupname> adiciona um usuário a um grupo
+adduser linux
+gpasswd -a <username> <groupname>
+sudo gpasswd -d <username> <groupname>
+cat /etc/group | grep <groupname> - verifica se o grupo foi eliminado
+sudo groupdel -f <usergroup> - força para deletar
+

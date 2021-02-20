@@ -21,3 +21,7 @@ sudo gpasswd -d <username> <groupname>
 cat /etc/group | grep <groupname> - verifica se o grupo foi eliminado
 sudo groupdel -f <usergroup> - força para deletar
 
+r - read 
+w - write
+x - eXecution
+ls -lh - exibe detalhes dobre determinado diretorio

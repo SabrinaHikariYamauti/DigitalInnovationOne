@@ -1,0 +1,18 @@
+sudo apt install nmap
+
+sudo apt upgrade <package>
+
+sudo apt remove <package>
+sudo dpkg -i - instalar pacote do tipo .deb
+sudo dpkg -I - pacote.deb
+sudo dpkg -r
+
+Fedora
+sudo rpm -ivh pacote.rpm
+sudo rpm-ivh --nodeps
+sudo rpm -U pacote.rpm - atualização 
+sudo rpm -e pacote.rpm - remoção 
+
+yum install pacote
+yum update pacote
+yum remove pacote

@@ -1,0 +1,27 @@
+ls -l - lista o conteúdo em coluna detalhada
+ls -a - lista arquivos ocultos
+ls -s - lista o conteúdo com tamanho alocado em cada arquivo, em bloco
+
+touch
+é possível criar multiplos arquivos
+touch -a file.txt - alterar hora de acesso
+touch -m file.txt - alterar a hora de modificação
+touch -c file.txt - altera o aqrvuio sem criar novo arquivo
+touch -t anomesdiahora file.txt - define data de modificaçao
+
+mv
+mv -i - confirmar antes de substituir
+mv -n - sem substituição
+mv -b - substituindo pelo backup
+mv -u - substitua so o arquivo de destino fora antigo ou não existir
+
+cp
+cp -v - mostra o retorno
+cp -i - confirma antes de substituir
+cp -r - mostra todo o procedimento
+
+find 
+find ./ -type f -name "alguma letra"
+
+rmdir
+rm -rf 

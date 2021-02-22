@@ -1,0 +1,6 @@
+gzip
+zip
+bzip2
+rar
+tar
+

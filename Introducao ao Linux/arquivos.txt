@@ -1,0 +1,21 @@
+gzip filename.txt - compactação
+gunzip filename.txt.gz - descompactação
+gzip -9 filename.txt - compactação maxima
+
+zip filename.zip filename.txt
+zip filenameziptobegenerated.zip filenameinsidethezip.txt filename.txt
+unzip filename.zip
+
+bzip2 filename.txt
+bzip2 -d filename.bz2
+
+rar - necessita ser instalado na primeira instalação
+rar a filename.rar filename 
+rar x filename.rar descomapctação do arquivo
+
+arquivador - utilizado para realizar compactação de mais de um arqiuvo e ate mesmo de arquivos compactados
+tar -cf filename.tar filename.txt filename2.txt
+gzip arquivos.tar
+tar -xvf filename.txt.tar.gz - descompactação do arquivo
+tar -xvf filename.txt.tar.gz -C ~/path - definir o local de compatação do arquivo
+

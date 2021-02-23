@@ -35,10 +35,15 @@ body {
 }
 
 .instagram-logo{
+    height:10rem;
+}
+
+.profile-photo {
     display:flex;
-    align-items: center;
     justify-content: center;
-    width:25%
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;/*quando arredonda, muitas vezes ainda pode aparecer quadrado*/
 }
 
 .profile-photo img{
@@ -60,8 +65,35 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: white;
-    width:50%;
+    width:100%;
     padding:1.3rem 0;
     border: 1px solid lightgray;
 }
 
+.group:nt-child(1){/*mostra o primeiro container*/
+    min-height: 19rem;
+}
+
+.instagram-login{
+    background-color: blue;
+    color:white;
+    padding:8px;
+    border-radius: 4px;
+}
+
+.instagram-logout{
+    color:blue;
+    margin-top: 1rem;
+}
+
+.not-account{
+    color:rgb(160,160,160);
+}
+
+.link-blue{
+    color:blue;
+}
+
+.get-the-app{
+    
+}

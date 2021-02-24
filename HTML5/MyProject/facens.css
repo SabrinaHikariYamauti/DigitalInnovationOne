@@ -1,0 +1,51 @@
+body {
+    width:100%;
+    min-height: 100vh;
+    background-color:white;
+    margin:0;
+    padding:0;
+    justify-content:top;
+}
+
+.cabeçalho{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:50%
+}
+.opcoes{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%
+}
+
+.linha1{
+    border-top:1px solid gray;
+}
+
+.facenslogo{
+    height: 2rem;
+}
+.caixapesquisa{
+    background-color:gainsboro;
+    border-radius: 10%
+}
+.instalogo img{
+    height: 2rem;
+}
+.facebooklogo img{
+    height: 2rem;
+}
+.youtubelogo img{
+    height: 2rem;
+}
+.linkedinlogo img{
+    height: 2rem;
+}
+.inglaterra img{
+    height: 2rem;
+}
+.brasil img{
+    height: 2rem;
+}

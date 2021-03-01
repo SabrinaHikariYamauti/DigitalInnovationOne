@@ -1,0 +1,111 @@
+:root{/*declaração das variáveis*/
+    --vermelho: #E50914;
+    --preta:#141414;
+}
+
+*{/*parametro da pagina inteira */
+    margin: 0;
+    padding:0;
+    box-sizing: border-box; /*os elementos não ultrapassam a borda da caixa*/
+}
+
+main{
+    color:white;
+    text-decoration: none;  
+}
+
+body{
+    background-color:var(--preta);
+    font-family:'Arial', Times, serif;
+}
+
+header .container{ /*caixa do header*/
+    /*border: 1px solid black;*/
+    display: flex; /*alinha elementos em tela, colcando tudo na linha*/
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; /*como os elementos do container estão disponibilisados*/    
+}
+
+header .logo{
+    margin-left: 5px;
+    color:var(--vermelho);
+    font-family:'Arial Black', Times;
+    font-size:40px;
+}
+
+header nav a{ /*definir os parametros das letras do "menu"*/
+    text-decoration: none;
+    color:gainsboro;
+    margin-right: 10px;
+}
+
+header nav a:hover{/*alterar a cor da "menu" quando o mouse passar*/
+    color:white;
+}
+
+/*filme principal*/
+.filmeprincipal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('harryfundo1.jpg');
+    height: 500px;
+    background-size: cover;/*encaixar a imagem, conforme o tamamho da imagem definfida*/
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filmeprincipal .descri{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color:white;
+
+    padding:15px 30px;/*para cima e para baixo*/
+    margin-right: 15px;
+    /*margin-bottom:12%;*/
+    font-size:12px;
+
+    cursor:pointer; /*fazer qcom que quando passar o cursos, mudar de estado*/
+    transition:.3s ease all;/*3mmili segundos para transição*/
+}
+
+.botao:hover{
+    background-color: white;/*o funco vira branco*/
+    color:black;/*letra fica preta*/
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+/*wrapper significa envelopamento e o container possui o mesmo conceito*/
+.container{
+    margin-left: 20px;
+}
+
+.filmeprincipal .container{
+    width: 70%; /*fica em 70% da tela, delimitando o texto dentro do container*/
+}
+
+.box-filme{
+    height:100%;
+    width: 100%;
+    display: block;
+}
+
+.carousel{
+    margin-top: 5px;
+    
+}

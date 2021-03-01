@@ -1,0 +1,12 @@
+.navbar{
+    background-color:greenyellow;
+}
+.quem-somos{
+    background-color: beige;
+}
+
+.margin{
+    /*margin-top: 30px; /*margem externa*/
+    /*padding émargem interna*/
+    padding-top: 30px;
+}

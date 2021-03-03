@@ -11,108 +11,155 @@
 body {
     width:100%;
     min-height: 100vh;
-    background-color:blue;
+    background-color:rgb(36, 119, 243);
 }
 
 .cabeçalho{
     background-color:white;
-    width: 100%;
-    height: 4cm;
     border-bottom-style:solid;
     border-bottom-color:gray;
 }
 
-.midias{
-    display:flex;
-    margin-top:0.2cm;
-    margin-left: 1cm;
-    justify-content: start;
-    align-items: center;
-    width:100%;
-    height: 2cm;
-}
+
+/********************************cabeçalho2********************************/
 .opcoes{
     display:flex;
     align-items: center;
     justify-content: center;
+    padding-bottom:0.1cm;
+    padding-top:0.5cm;
+    padding-left: 0.5cm;
     width:100%;
-    height: 1.5cm;
+}
+.opcoes nav a{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.45cm;
+    padding-right:0.4cm;
+    color:black;
+}
+
+.opcoes nav a:hover{/*alterar a cor da "menu" quando o mouse passar*/
+    color:rgb(45, 219, 250);
 }
 
 .linha1{
     border-top:1px solid gray;
 }
-
-.facenslogo img{
-    height: 2rem;
-    padding-inline-end: 1.5cm;
+/********************************cabeçalho1********************************/
+.midias{
+    display:flex;
+    margin-top:0.1cm;
+    padding-top:0.2cm;
+    padding-right: 2.5cm;
+    padding-left: 2.5cm;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height: 2cm;
 }
-.caixapesquisa{
-    color:grey;
-    background-color:gainsboro;
+/*---------------------Parametros logo da Facens---------------------*/
+.facenslogo img{
+    height: 1.7rem;
+}
+/*---------------------Parametros caixa de pesquisa---------------------*/
+#caixapesquisa{
+    background-color:rgb(226, 226, 226);
+    display: flex;
+    align-items: center;
     width: 15cm;
     height: 1.3cm;
     border-radius: 5%;
 }
+
+#caixapesquisa img{
+    width:0.7cm;
+    height:0.7cm;
+    margin-right: 0.3cm;
+}
+/*---------------------Parametros texto de pesquisa---------------------*/
+#txBusca{
+    float:left;
+    color:gray;
+    background-color:transparent;
+    padding-left: 5px;
+    border:none;
+    height:1.3cm;
+    width:17cm;
+}
+/*---------------------Disposicao dos logos das midias---------------------*/
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    padding-right: 0.5cm;
+}
 .instalogo img{
     height: 2rem;
-    padding-inline-end: 0.5cm;
-    padding-inline-start: 1.5cm;
 }
 .facebooklogo img{
-    height: 1.6rem;
-    padding-inline-end: 0.5cm;
+    height: 1.5rem;
 }
 .youtubelogo img{
-    height: 2rem;
-    padding-inline-end: 0.5cm;
+    height: 1.8rem;
 }
 .linkedinlogo img{
-    height: 1.6rem;
-    padding-inline-end: 1.5cm;
+    height: 1.4rem;
+}
+/*---------------------Parametro das bandeiras---------------------*/
+#bandeiras{
+    display: flex;
+    justify-content: center;
 }
 .inglaterra img{
-    height: 1.5rem;
-    padding-inline-end: 0.5cm;
+    width: 1.2cm;
+    margin-right:0.3cm;
 }
 .brasil img{
-    height: 1.5rem;
+    height: 0.6cm;
+    width: 1cm;
 }
 
+/********************************cursos********************************/
+.botoes{
+    display: flex;
+    justify-content: flex-end;
+    border:none;
+    font-size:12px;
+    background-color: white;
+    width: 100%;
+    height: 3cm;
 
+    cursor:pointer; /*fazer qcom que quando passar o cursos, mudar de estado*/
+    transition:.3s ease all;/*3mmili segundos para transição*/
+}
+.text{
+    color:gray
+}
+.graduacao{
+    color:red;
+    font-size:1cm;
+}
+.botaograduacao{
+    background-color: yellow;
+}
+.botaopos{
+    background-color: greenyellow;
+}
+.botaoead{
+    background-color: hotpink;
+}
+.botaoextensao{
+    background-color: deepskyblue;
+}
 
-.facens{
-    padding-inline-end: 0.5cm;
+.botoes text{
+    color:gray;
 }
-.cursos{
-    padding-inline-end: 0.5cm;
-}
-.formas{
-    padding-inline-end: 0.5cm;
-}
-.financiamento{
-    padding-inline-end: 0.5cm;
-}
-.internacional{
-    padding-inline-end: 0.5cm;
-}
-.inovacao{
-    padding-inline-end: 0.5cm;
-}
-.serviços{
-    padding-inline-end: 0.5cm;
-}
-.tv{
-    padding-inline-end: 0.5cm;
-}
-.acesso{
-    padding-inline-end: 0.5cm;
-}
-.noticias{
-    padding-inline-end: 0.5cm;
-}
-.contato{
-    padding-inline-end: 0.5cm;
+
+.botoes:hover{
+    background-color: white;/*o funco vira branco*/
+    color:black;/*letra fica preta*/
 }
 
 .outdoor{

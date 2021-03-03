@@ -1,3 +1,9 @@
 body{
-    
+    height:95vh;
+    width:95;
+    display:flex;
+    justify-content: center; /*horizontalmente no meio*/
+    align-items: center;
+    flex-direction: column;
+    color:green;
 }

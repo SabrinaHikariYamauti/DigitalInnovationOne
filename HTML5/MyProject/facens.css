@@ -120,7 +120,7 @@ body {
     width: 1cm;
 }
 
-/********************************cursos********************************/
+/********************************Tipos de cursos********************************/
 .botoes{
     display: flex;
     justify-content: flex-end;
@@ -133,43 +133,97 @@ body {
     cursor:pointer; /*fazer qcom que quando passar o cursos, mudar de estado*/
     transition:.3s ease all;/*3mmili segundos para transição*/
 }
+/*---------------------texto cursos---------------------*/
 .text{
-    color:gray
+    font-size: 0.4cm;
+    padding-top:0.9cm;
+    text-align: center;
+    color: lightgray;
+}
+/*---------------------graduação---------------------*/
+.botaograduacao{
+    background-color: white;
+    width:20%;
+    color:rgb(52, 242, 248);
+    text-align: center;
+    border-style: solid;
+    border-color:lightgray;
+    border-width: 0.01cm;
+    cursor:pointer; /*fazer qcom que quando passar o cursos, mudar de estado*/
+    transition:.3s ease all;/*3mmili segundos para transição*/
 }
 .graduacao{
-    color:red;
-    font-size:1cm;
+    font-weight: bold;
+    font-size: 0.6cm;
 }
-.botaograduacao{
-    background-color: yellow;
-}
+/*---------------------pos graudação---------------------*/
 .botaopos{
-    background-color: greenyellow;
+    background-color: white;
+    width:20%;
+    color:blue;
+    text-align: center;
+    border-style: solid;
+    border-color:lightgray;
+    border-width: 0.01cm;
+    cursor:pointer; /*fazer qcom que quando passar o cursos, mudar de estado*/
+    transition:.3s ease all;/*3mmili segundos para transição*/
 }
+.pos{
+    font-weight: bold;
+    font-size: 0.6cm;
+}
+/*---------------------ead---------------------*/
 .botaoead{
-    background-color: hotpink;
+    background-color: white;
+    width:20%;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(250, 25, 182);
+    font-size: 0.6cm;
+    border-style: solid;
+    border-color:lightgray;
+    border-width: 0.01cm;
+    cursor:pointer; /*fazer qcom que quando passar o cursos, mudar de estado*/
+    transition:.3s ease all;/*3mmili segundos para transição*/
 }
+/*---------------------extensao---------------------*/
 .botaoextensao{
-    background-color: deepskyblue;
+    background-color:white;
+    width:20%;
+    text-align: center;
+    font-weight: bold;
+    color:green;
+    font-size: 0.6cm;
+    border-style: solid;
+    border-color:lightgray;
+    border-width: 0.01cm;
+    cursor:pointer; /*fazer qcom que quando passar o cursos, mudar de estado*/
+    transition:.3s ease all;/*3mmili segundos para transição*/
 }
 
-.botoes text{
-    color:gray;
-}
 
-.botoes:hover{
-    background-color: white;/*o funco vira branco*/
-    color:black;/*letra fica preta*/
+.botaograduacao:hover{
+    background-color: rgb(52, 242, 248);/*o funco vira branco*/
+    color:white;/*letra fica preta*/
+}
+.botaopos:hover{
+    background-color: blue;/*o funco vira branco*/
+    color:white;/*letra fica preta*/
+}
+.botaoead:hover{
+    background-color: rgb(250, 25, 182);/*o funco vira branco*/
+    color:white;/*letra fica preta*/
+}
+.botaoextensao:hover{
+    background-color:green;/*o funco vira branco*/
+    color:white;/*letra fica preta*/
 }
 
 .outdoor{
-    display:flex;
+    padding-top:5px;
+    width:100%;
+    height:100%;
     align-items: center;
     justify-content: center;
     background-color: white;
-}
-.outdoor img{
-    width: 100%;
-    margin-left: 0.5cm;
-    margin-right: 0.5cm;
 }

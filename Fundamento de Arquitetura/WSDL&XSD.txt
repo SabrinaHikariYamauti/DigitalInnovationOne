@@ -1,0 +1,6 @@
+WSDL: Web Services description Language
+Descreve web service e é feita em um documento XML, especificando acesso, operação e métodos
+
+XSD: XML Schema Definition
+É um esquema no formato XML, estrutura de dados que será validada no XML
+Como o Soap message deve ser enviada (XML) que será enviada através de Web Service

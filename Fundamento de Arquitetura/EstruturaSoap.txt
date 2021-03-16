@@ -1,0 +1,18 @@
+Protocolo simples de acesso ao objeto
+
+Protocolo baseado em XML para acessar serviços web por HTTPS
+Pode ser considerado uma definição/arquitetura
+Facilita integração entre as aplicações
+Pode utilizar outros protocolos
+
+XML Extensible Markup Language
+
+Facilita separação de conteúdo
+Não tem limitação de criação de tags
+Linguagem comum para integrar aplicações
+
+Estrutura de SOAP
+Soap message tem uma estrtura organizada em:
+Soap Envelope: caixa que envolve tudo, fica encapsulado
+Soap Header: atributos e metadados, token, credenciais de autentificação;
+Soap Body:conteúdo;

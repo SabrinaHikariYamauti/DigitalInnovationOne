@@ -1,0 +1,18 @@
+XML: Extensible Markeu Language (linguagem)
+URI: Uniform Resource Identifier (protocolo)
+
+Os serviços web podem ser considerados API's que se comunicam por meio de ŕotocolo HTTP
+
+Como isto funiona??
+
+Banco de dados x (BDX)                          Banco de dados x (BDX) 
+(Aplicação X)                                   (Aplicação X)
+
+Como que as aplciações com diferentes arquiteturas se comunicam??
+Como se comunica em redes diferentes?
+
+O WEb service possui uma URI para que a aplicação possa acessar o Web Service. Este fará comunicação
+com uma outra aplicação utilizando por exemplo XML ou Json (linguagens), etc através do protocolo HTTPS
+
+A aplicação Y fará uma requisição para Web Service e este faz a consulta em banco de dado para retornar.
+

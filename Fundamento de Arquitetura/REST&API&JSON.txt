@@ -1,0 +1,32 @@
+REST: Representational State Transfer
+Pode trabalhar com formatos XML, Json e outros, sendo um estilo de arquitetura que
+definir a implementação de serviços web
+Permite integração entre cliente e servidor em paginas web e aplicações
+
+Estrutura REST
+
+Cliente está consumindo o serviços                  Servidor
+(aplicativo de celular ou pagina web)
+Cliente realiza requisição HTTPS e o servidor retornaa um código de operação e uma mensagem (Texto, Json, XML)
+
+Quando uma aplicação web, disonibiliza um conjunto de rotinas e padrões, isto é chamado de conjunto API
+
+API: Application Programming Interface
+
+São conjunto de rotinas documentadas e disponibilizados por uma aplicação para que outras aplicações 
+possam consumir funcionalidades
+Facebook, Telegram, Whatsapp, Github, Twitter
+API não necessariamente segue uma arquitetura REST
+
+Principais métodos HTTPS
+GET: Solicita representação de recurso. Este representa o estado, apresenta o estado do objeto
+ou buscar uma informação do momento
+POST: Solicitar a criação de recursos
+DELETE: Solicita a exclusão de recursos
+PUT: Solicita atualização de um recurso
+
+JOSON: JavaScript Object Notation
+Formatação leve utilizada para troca de mensagem entre os sistemas
+
+
+

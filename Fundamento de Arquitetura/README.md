@@ -5,6 +5,7 @@
 Referências: 
 [Web Services](https://pt.wikipedia.org/wiki/Web_service)
 [Web service: o que é, como funciona, para que serve?](https://www.opensoft.pt/web-service/)
+
 ####SOAP
 *Simple Object Acces Proocol *ou Protocolo Simples de Acesso ao Objeto é um protocolo baseado em XML (*Extensible Markup Language*) que permite a troca de informações usando o protocolo HTTP,  identificado por URI (*Uniform Resource Identifier*). 
 #####Exemplo:

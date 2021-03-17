@@ -1,0 +1,15 @@
+Tipos de arquitetura
+
+Monolito
+Consegue definir quantidade de aplicações que estão rodando
+Servidor (Banco de dados <<aplciações <<Proxy HTTP)  << Web/Mobile App
+
+Microserviçoes
+Um serviço para cada operação
+Cada caixa do nodo é como se fosse monolito
+Serviço externo
+                    << Cluster(Serviço Nodo1,2,3 << Proxy HTTP) << Mobile/Web App
+Banco de dados 1 2
+
+
+

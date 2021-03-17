@@ -1,7 +1,7 @@
 XML: Extensible Markeu Language (linguagem)
 URI: Uniform Resource Identifier (protocolo)
 
-Os serviços web podem ser considerados API's que se comunicam por meio de ŕotocolo HTTP
+Os serviços web podem ser considerados API's que se comunicam por meio de pŕotocolo HTTP
 
 Como isto funiona??
 

@@ -2,7 +2,7 @@ Código de estado / Status Code
 Utilziado para avisar o cliente sobre o estado da operação solicitada
 1xx - informativo (somente recebimento)
 2xx - sucesso (processado com sucesso)
-3xx - redirecionamento ()
+3xx - redirecionamento (alguma ultra ação )
 4xx - erro do cliente
 5xx - erro do servidor
 Normalmente os códigos vao de 100 a 500
